@@ -1,0 +1,33 @@
+koishi-plugin-iirose-music
+Copyright (c) 2026 乐正安 (Lezhengan)
+
+本作品是 XCWQW1/iirose_music 的移植衍生作品。
+This product is a port / derivative work of XCWQW1/iirose_music.
+
+原作品 / Original work
+----------------------
+名称 / Name:      iirose_music.py
+仓库 / Repository: https://github.com/XCWQW1/iirose_music
+                  （部署在 iirosebot 框架中时位于 plugins/iirose_music.py）
+作者 / Author:     XCWQW1（站内昵称 xcwqw233）https://github.com/XCWQW1
+版权 / Copyright:  Copyright (c) XCWQW1
+许可证 / License:  Apache License 2.0
+                  https://www.apache.org/licenses/LICENSE-2.0
+
+改动说明 / Statement of changes
+-------------------------------
+本移植作品以原作品的逻辑为基础，做了如下修改：
+
+1. 语言与形态：将原 Python 实现改写为 TypeScript / JavaScript，并改造为
+   Koishi 4 插件（IIROSE 平台通过 koishi-plugin-adapter-iirose 接入）。
+2. 接口层：由原实现改用 ShadowSee API（https://api.shadowsee.icu）取流。
+3. 平台适配：媒体播放改为调用 iirose adapter 的 makeMusic，指令前缀、
+   艾特格式、实体转义等按 Koishi / IIROSE 适配层重写。
+4. 功能增补：新增控制台扫码登录（Cookie 持久化）、调试日志开关、
+   randomCNIP 实验项、热评随机抽取数量可配置等。
+5. 具体差异以本仓库的提交历史与源码为准。
+
+许可 / Licensing
+----------------
+原作品以 Apache License 2.0 授权发布，其许可证副本见本仓库的
+LICENSE-APACHE 文件。本移植作品整体以 MIT 许可证发布，见 LICENSE 文件。

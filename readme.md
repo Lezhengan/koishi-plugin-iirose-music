@@ -1,6 +1,8 @@
 # koishi-plugin-iirose-music
 
-基于 ShadowSee API 的蔷薇花园(IIROSE)点歌插件，由 `iirosebot-1.6.1/plugins/iirose_music.py` 移植而来。
+基于 ShadowSee API 的蔷薇花园(IIROSE)点歌插件，由 [XCWQW1/iirose_music](https://github.com/XCWQW1/iirose_music) 的 `iirose_music.py`（部署在 iirosebot 框架中时位于 `iirosebot-1.6.1/plugins/iirose_music.py`）移植而来。
+
+原作者 [XCWQW1](https://github.com/XCWQW1)（站内昵称 xcwqw233），原作品以 Apache-2.0 授权发布，来源与改动说明见 [NOTICE](https://github.com/Lezhengan/koishi-plugin-iirose-music/blob/main/NOTICE)。
 
 ## 功能
 
@@ -48,3 +50,9 @@
 >模式 列表/循环        - 更改 列表/循环 的状态
 <TT1                 - 切换热评发送开关
 ```
+
+## 许可
+
+本项目以 MIT 许可证发布，见 [LICENSE](https://github.com/Lezhengan/koishi-plugin-iirose-music/blob/main/LICENSE)。
+
+它是 [XCWQW1/iirose_music](https://github.com/XCWQW1/iirose_music)（Apache-2.0）的移植衍生作品，来源与改动说明见 [NOTICE](https://github.com/Lezhengan/koishi-plugin-iirose-music/blob/main/NOTICE)，原作品许可证副本见 [LICENSE-APACHE](https://github.com/Lezhengan/koishi-plugin-iirose-music/blob/main/LICENSE-APACHE)。
