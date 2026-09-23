@@ -1,0 +1,56 @@
+{
+  "name": "koishi-plugin-iirose-music",
+  "version": "0.2.2",
+  "description": "【仅适用于IIROSE蔷薇花园平台】基于 ShadowSee API 的点歌插件：点歌/歌单/专辑/电台/歌手/队列播放/热评/控制台扫码登录",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b && koishi-console build",
+    "build:console": "koishi-console build",
+    "watch": "tsc -b --watch"
+  },
+  "keywords": [
+    "koishi",
+    "koishi-plugin",
+    "iirose",
+    "music",
+    "netease",
+    "netease-cloud-music",
+    "shadowsee",
+    "点歌"
+  ],
+  "koishi": {
+    "description": {
+      "zh": "【仅适用于IIROSE蔷薇花园平台】基于 ShadowSee API 的点歌插件：点歌/歌单/专辑/电台/歌手/队列播放/热评/控制台扫码登录",
+      "en": "[IIROSE Rose Garden ONLY] NetEase Cloud Music plugin based on ShadowSee API: play songs/playlists/albums/radio/artists, queue playback, hot comments, console QR-code login"
+    },
+    "service": {
+      "required": [
+        "console"
+      ]
+    },
+    "locales": [
+      "zh-CN",
+      "zh"
+    ]
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@koishijs/plugin-console": "^5.0.0",
+    "koishi": "^4.18.8",
+    "koishi-plugin-adapter-iirose": ">=0.12.0"
+  },
+  "devDependencies": {
+    "@koishijs/client": "^5.30.11",
+    "@koishijs/plugin-console": "^5.30.11",
+    "@types/node": "^18.0.0",
+    "koishi": "^4.18.8",
+    "koishi-plugin-adapter-iirose": ">=0.12.0",
+    "puppeteer-core": "^25.7.0",
+    "typescript": "^5.4.0"
+  }
+}
