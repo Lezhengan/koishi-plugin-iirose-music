@@ -28,6 +28,10 @@ export interface Config {
     commandHead: string;
     musicHot: boolean;
     hotCommentLimit: number;
+    botTable: {
+        botId?: string;
+        roomId?: string;
+    }[];
     debug: boolean;
     randomCNIP: boolean;
 }

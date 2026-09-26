@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-iirose-music",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "【仅适用于IIROSE蔷薇花园平台】基于 ShadowSee API 的点歌插件：点歌/歌单/专辑/电台/歌手/队列播放/热评/控制台扫码登录",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
